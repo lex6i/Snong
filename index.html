@@ -14,16 +14,7 @@
 <script type="module">
     import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.17.0/firebase-app.js'
 
-    import { getFirestore, collection, doc, setDoc, getDoc } from 'https://www.gstatic.com/firebasejs/9.17.0/firebase-firestore.js'
-	var config = {
-		apiKey: "AIzaSyCQ69hWV4pZUq9PocrNPegUdmcNTZ2ihlg",
-		authDomain: "snong-12425.firebaseapp.com",
-		projectId: "snong-12425",
-		storageBucket: "snong-12425.appspot.com",
-		messagingSenderId: "715241035472",
-		appId: "1:715241035472:web:f553abca6737ca465770d5",
-		databaseURL: "https://highscore.firebaseio.com"
-	}
+    
 
 	var app = initializeApp(config);
 	var database = getFirestore(app);
